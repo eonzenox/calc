@@ -1,0 +1,37 @@
+<div class="calculator">
+        <div class="display">{{ value }}</div>
+        <div class="controls">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="clear()">C</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="negate()">+/-</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="op('/')">/</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="op('*')">*</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="num('7')">7</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="num('8')">8</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="num('9')">9</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"><button type="button" class="btn btn-white" ng-click="op('-')">-</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"> <button type="button" class="btn btn-white" ng-click="num('4')">4</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"> <button type="button" class="btn btn-white" ng-click="num('5')">5</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"> <button type="button" class="btn btn-white" ng-click="num('6')">6</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 p-5"> <button type="button" class="btn btn-white" value="+" ng-click="op('+')">+</button></div>
+            </div>
+            <div class="row double">
+                <div class="col-md-3 col-sm-3 col-xs-3 single-row p-5"> <button type="button" class="btn btn-white"
+                        ng-click="num('1')">1</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 single-row p-5"><button type="button" class="btn btn-white" ng-click="num('2')">2</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 single-row p-5"> <button type="button" class="btn btn-white"
+                        ng-click="num('3')">3</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 double-row p-5"> <button type="button" class="btn btn-white tall"
+                        class="tall right" ng-click="compute()">=</button></div>
+                <div class="col-md-6 col-sm-6 col-xs-6 single-row row-two p-5"> <button type="button" class="btn btn-white"
+                        class="wide" ng-click="num('0')">0</button></div>
+                <div class="col-md-3 col-sm-3 col-xs-3 single-row row-two p-5"> <button type="button" class="btn btn-white"
+                        ng-click="num('.')">.</button></div>
+            </div>
+        </div>
+    </div>
+    </div>
